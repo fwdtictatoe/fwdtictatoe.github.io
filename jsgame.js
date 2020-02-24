@@ -36,7 +36,7 @@ $(document).ready(function() {
 			$(this).text(o);
 			$(this).addClass('disable o btn-primary')
 			if (getWinner('o', indexBox, winningCombos) == true){
-					alert('O wins bro');
+					alert('O wins');
 					count = 0;
 					o_win++;
 					$('#o_win').text(o_win)
